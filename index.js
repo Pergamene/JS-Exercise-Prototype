@@ -120,10 +120,10 @@ Baby.prototype.play = function () {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global - the window/console object it is in.
+  2. Implicit - points to the object 'this' is called in.
+  3. New - attaches a variable to the specific instance of the object being created by the constructor.
+  4. Explicit - a this defined by a method call.
 */
 
 
